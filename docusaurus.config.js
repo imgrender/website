@@ -48,14 +48,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      announcementBar: {
-        id: 'support_us',
-        content:
-          'imgrender 将于 2021-10-31 00:00:00 迁移至弹性集群 👉 <a target="_blank" rel="noopener noreferrer" href="/blog/2021-10-28-update-news">详情</a>',
-        backgroundColor: '#5865F2',
-        textColor: '#fff',
-        isCloseable: false,
-      },
       metadatas: [
         {name: 'keywords', content: 'imgrender,图片生成,海报,动态图片'}
       ],
