@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="242px" height="59px" viewBox="0 0 242 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo_dark</title>
+    <defs>
+        <polygon id="path-1" points="-5.50002716e-06 0.992 29.9999945 0.992 29.9999945 39.992 -5.50002716e-06 39.992"></polygon>
+    </defs>
+    <g id="imgrender" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo_dark">
+            <g id="fastly" transform="translate(77.000006, 11.008000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M15.8835348,39.2047343 L29.7025529,18.5263854 C30.2450525,17.7138375 30.0248128,16.6157164 29.2100913,16.0745206 C28.9192942,15.8809542 28.577595,15.7779582 28.2279761,15.7779582 L17.3625754,15.7779582 L17.3625754,2.76009787 C17.3625754,1.78371885 16.5695251,0.992 15.5910818,0.992 C14.998184,0.992 14.4453167,1.28741319 14.116505,1.77926574 L0.297558952,22.4576146 C-0.244940716,23.2701625 -0.025060957,24.367709 0.789444516,24.9094794 C1.08052961,25.1030458 1.4222288,25.2066164 1.77206369,25.2066164 L12.6371765,25.2066164 L12.6371765,38.2239021 C12.6371765,39.2002812 13.4305867,39.992 14.4090301,39.992 C15.0015679,39.992 15.5553711,39.6965868 15.8835348,39.2047343 Z" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+            </g>
+            <text id="render" fill="#FFFFFF" fill-rule="nonzero" font-family="Manrope-Bold, Manrope" font-size="40" font-weight="bold">
+                <tspan x="112.78" y="47">render</tspan>
+            </text>
+            <text id="img" fill="#FFFFFF" fill-rule="nonzero" font-family="Manrope-Bold, Manrope" font-size="40" font-weight="bold">
+                <tspan x="0.09" y="43">img</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,28 @@
+.content {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 15px;
+}
+
+.content.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.content .col {
+  flex-basis: 0;
+  flex-grow: 1;
+  padding: 10px 20px;
+  align-self: center;
+}
+
+@media screen and (max-width: 736px) {
+  .content {
+    padding: 15px;
+  }
+  .content.row {
+    display: flex;
+    flex-direction: column;
+  }
+}

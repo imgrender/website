@@ -1,0 +1,39 @@
+.container {
+  
+}
+.conetent{
+    display: flex;
+    flex-direction: row;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.conetent .col {
+    flex-basis: 0;
+    flex-grow: 1;
+    padding: 20px;
+    width: 50%;
+    align-self: center;
+}
+
+
+.button {
+    margin: 5px;
+}
+
+
+
+@media screen and (max-width: 736px){
+    .conetent{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .conetent .col {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
