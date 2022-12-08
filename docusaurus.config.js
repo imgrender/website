@@ -55,8 +55,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         title: '',
         logo: {
           alt: 'API 优先的图片动态渲染服务 | Imgrender',
-          src: 'favicon/logo_banner.svg',
-          srcDark: 'favicon/logo_banner_dark.svg'
+          src: 'favicon/logo_banner_dark.svg',
+          srcDark: 'favicon/logo_banner_white.svg'
         },
         hideOnScroll: true,
         items: [
