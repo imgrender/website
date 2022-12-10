@@ -21,8 +21,8 @@ const HomePageHero = () => {
                                 className={clsx(
                                     'button button--lg button--primary'
                                 )}
-                                to={useBaseUrl('docs/getting-started')}>
-                                开始使用
+                                to="https://app.imgrender.cn">
+                                免费使用
                             </Link>
                         </div>
                         <div className={clsx(styles.button)}>
@@ -36,10 +36,9 @@ const HomePageHero = () => {
                         </div>
                     </div>
                 </div>
-                <video className={clsx(styles.heroVideo, styles.col)} autoPlay loop controls muted playsInline>
-                    <source src={useBaseUrl('video/show_video.webm')} type="video/webm" />
-                    <source src={useBaseUrl('video/show_video.mp4')} type="video/mp4" />
-                </video>
+                <div className={clsx(styles.heroVideo, styles.col)}>
+                    <img src={useBaseUrl('img/usage.gif')}></img>
+                </div>
             </div>
         </div>
     )
